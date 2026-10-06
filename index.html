@@ -8,68 +8,86 @@
     <!-- Kết nối file CSS để thiết kế giao diện -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Hồ Sơ Cá Nhân </title>
+    <title>Hồ Sơ Cá Nhân</title>
 </head>
 
 <body>
     <main>
         <header>
             <!-- Ảnh đại diện -->
-            <img src="image/avatar.jpg" width="150px" height="150px" alt="My avatar">
+            <img src="https://innhanhasia.com/wp-content/uploads/2026/01/sticker-meo-cute-19-1.jpg" width="150px" height="150px" alt="My avatar">
 
-            <p>[Tên + vị trí]</p>
-            
+            <p>Nguyễn Hoàng Anh - Ban kỹ thuật</p>
+    
             <!-- Thanh điều hướng đến các phần khác nhau của website -->
-            <nav> [About] [Skills] [Projects] [Contact] </nav>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
 
         <!-- Hero section -->
         <section id="hero">
             <!-- Viết một đoạn giới thiệu ngắn về bản thân --> 
-             <p>[Giới thiệu ngắn gọn về bản thân]</p>
+             <p>Nguyễn Hoàng Anh - Học sinh lớp 11C3A, Trường THPT Chuyên Hùng Vương</p>
         </section>
         
         <section id="about">
             <h2>About me</h2>
             
-            <p>[Thông tin cơ bản về bạn]</p>
-            <p>[Viết lý do bạn muốn tham gia HTVH]</p>
-            <p>[Bạn muốn đạt được điều gì khi tham gia HTVH]</p>
+            <p>• Họ và tên: Nguyễn Hoàng Anh</p>
+            <p>• Ngày sinh: 12/12/2010 • Giới tính: Nam</p>
+            <p>• Sở thích: Lập trình, đá banh, chơi game</p>
+            <p>Em muốn vận dụng kiến thức lập trình để hỗ trợ kỹ thuật, đồng thời đóng góp cho các hoạt động của CLB.</p>
+            <p>Em mong muốn em sẽ có thể đóng góp vào thành tích của câu lạc bộ, nâng cao kỹ năng lập trình và hoàn thiện bản thân hơn. 
+                Có mối quan hệ tốt với các thành viên trong CLB.</p>
         </section>
         
         <section id="skills">
             <h2>My Skills</h2>
 
-            <h3>Công Nghệ </h3>
-            <p>[Tôi đã học vững Python/ C++]</p>
-            <p>[Tôi đã tìm hiểu 1 số kiến thức cơ bản về HTML, CSS, Javascript]</p>
+            <h3>Công Nghệ</h3>
+            <p>Em đã học qua C++ và có thể áp dụng kiến thức này vào các bài tập dự án cá nhân.</p>
+            <p>Em đã tìm hiểu 1 số kiến thức cơ bản về HTML, CSS, Javascript</p>
             
             <h3>Công Cụ</h3>
-            <p>[Tôi đã sử dụng git/github cho các dự án cá nhân] </p>
-            <p>[Tôi sử dụng ChatGPT, ClaudeAI hiệu quả cho việc lập trình] </p>
+            <p>Em đã sử dụng git/github cho các dự án cá nhân</p>
+            <p>Em sử dụng ChatGPT, ClaudeAI hiệu quả cho việc lập trình</p>
         </section>
         
+        <!-- Đã sửa id="projects" tại đây để thanh điều hướng cuộn xuống đúng vị trí -->
         <section id="projects">
             <h2>My projects</h2>
-
             <div class="project-container">
-                <article class="projects">
-                    <h4>[Website Hồ Sơ Cá Nhân]</h4>
 
+                <div class="projects">
+                    <h3>[Website Hồ Sơ Cá Nhân]</h3>
                     <p>[Đây là dự án web cá nhân đầu tiên của tôi]</p>
                     <p>[Tôi xây dựng portfolio này để ứng tuyển vào Ban Kỹ thuật HTVH.]</p>
                     <p>[Viết bằng: HTML, CSS, JavaScript]</p>
                     <!-- Link đến project / GitHub / demo -->
-                    <p><a href="#">view</a> </p>
-                </article>
-            </div>
-        </section>
+                    <a href="#">view</a>
+                </div>
+
+                <div class="projects">
+                    <h3>[Quay số ngẫu nhiên]</h3>
+                    <p>[Đây là dự án web cá nhân]</p>
+                    <p>[Dự án này cho phép người dùng quay số ngẫu nhiên với các tùy chọn khác nhau]</p>
+                    <p>[Viết bằng: HTML]</p>
+                    <a href="http://127.0.0.1:5500/Random.html" target="_blank">view</a>
+                </div>
+
+            </div> 
+        </section> 
 
         <footer id="contact">
             <h2>Contact</h2>
 
-            <p>Email: [My email]</p>
-            <p>Facebook: <a href="">[My facebook]</a></p>
+            <p>Email: nghoanganh121210@gmail.com</p>
+            <p>Facebook: <a href="https://facebook.com" target="_blank"></a></p>
+            <p>Phone: 0358 773 725</p>
         </footer>
     </main>
 
